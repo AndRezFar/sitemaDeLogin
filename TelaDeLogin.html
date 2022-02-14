@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="UTF-8">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="layout.css" type="text/css">
+    <script type="text/javascript" src="back_end.js"></script>
+</head>
+
+<body>
+    <div name="container" class="container">
+        <div class="title">
+            <h1 style="font-family:Georgia,'Times New Roman',Times, serif;">Write Can Be</h1>
+        </div>
+        <div name="title" class="login"> 
+            <div id="alert" class ="alert">
+                <p>E-mail e senha invalido!</p>
+            </div>  
+            <input id="email" class="e-mail" type="email" name="email" autocomplete="off" placeholder="E-mail"><br>
+            <input id="senha" class="senha" type="password" name="senha" placeholder="Senha"><br>
+            <button class="button" id="button" onclick="validar()">Entrar</button>
+            <a style="color: #fff" href="recuperacaoDeSenha.html">Esqueci minha senha</a>
+        </div>
+    </div>
+</body>
+
+</html>
